@@ -14,3 +14,9 @@ assigned to room #{index + 1}!"}
 
 return array 
 end
+
+def printer(array)
+  
+  batch_badge_creator(array).each { |value| puts value }
+  assign_rooms(array).each { |value| puts value }
+end
