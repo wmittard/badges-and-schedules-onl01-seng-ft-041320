@@ -9,7 +9,7 @@ end
 def assign_rooms(array)
   rooms = 1..7
 
-array.each_with_index { |val,index| array[index] = "Hello, #{val}! you'll be 
+array.each_with_index { |val,index| array[index] = "Hello, #{val}! You'll be 
 assigned to room #{index + 1}!"}
 
 return array 
